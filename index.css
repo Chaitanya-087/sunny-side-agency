@@ -44,7 +44,7 @@ ul {
 /* Set core root defaults */
 html {
     scroll-behavior: smooth;
-    scroll-padding: 30px;
+    scroll-padding: 60px;
 }
 
 /* Set core body defaults */
@@ -79,6 +79,7 @@ button {
     padding: 1rem 1.5rem;
     width: 100%;
     position: fixed;
+    height: 60px;
     color: var(--clr-neutral-white);
     z-index: 10;
     transition: background-color 0.3s ease-in-out;
