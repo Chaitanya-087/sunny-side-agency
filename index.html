@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/gailan.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/c4057c8188.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./index.css">
+  <title>Sunnyside agency</title>
+</head>
+
+<body>
+  <!--navbar-->
+  <header class="navbar" id="back-drop">
+    <span class="nav__logo">sunnyside</span>
+    <div id="menu-icon" class="nav__menu-icon disappear" onclick="openMenu()">
+      <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg">
+        <path d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z" fill="#FFF" fill-rule="evenodd" />
+      </svg>
+    </div>
+    <ul id="nav-items" class="nav__items">
+      <li class="nav__item">
+        <a href="#" class='nav__link'>About</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class='nav__link'>Services</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class='nav__link'>Projects</a>
+      </li>
+      <li class="nav__item">
+        <button>CONTACT</button>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <!--banner-->
+    <section class="banner__section">
+      <img id="banner" src="./images/desktop/image-header.jpg" alt="banner">
+      <h1 class="banner__title">WE ARE CREATIVE</h1>
+      <div class="banner__arrow-down">
+        <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg">
+          <g stroke="#FFF" stroke-width="6" fill="none" fill-rule="evenodd" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M18 3v100M3 95.484l15 15 15-15" />
+          </g>
+        </svg>
+      </div>
+    </section>
+    <!--about section-->
+    <section class="about__section">
+      <!--brand-transform-->
+      <div class="brand-transform">
+        <div class="details">
+          <h1 class="title">
+            Transform your brand
+          </h1>
+          <p class="desc">
+            We are a full-service creative agency specializing in helping brands grow fast.
+            Engage your clients through compelling visuals that do most of the marketing for you.
+          </p>
+          <a href="#" class="learn-more underline-red">
+            Learn more
+          </a>
+        </div>
+      </div>
+      <div class="brand__image">
+        <img id='transform' src="./images/desktop/image-transform.jpg" alt="">
+      </div>
+      <!--standout-->
+      <div class="standout">
+        <div class="details">
+          <h1 class="title">
+            Stand out to the right audience
+          </h1>
+          <p class="desc">
+            Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+            we'll build and extend your brand in digital places.
+          </p>
+          <a href="#" class="learn-more underline-yellow">
+            Learn more
+          </a>
+        </div>
+      </div>
+      <div class="standout__image">
+        <img id='standout' src="./images/desktop/image-stand-out.jpg" alt="">
+      </div>
+      <!--graphics-->
+      <div class="graphics">
+        <img id="graphic" src="./images/desktop/image-graphic-design.jpg" alt="graphics">
+        <div class="graphic-details">
+          <h1 class="graphic-title">Graphic design</h1>
+          <p class="graphic-desc">Great design makes you memorable. We deliver artwork that underscores your brand
+            message and captures potential clients' attention.</p>
+        </div>
+      </div>
+      <!--photography-->
+      <div class="photography">
+        <img id="photography" src="./images/desktop/image-photography.jpg" alt="photography">
+        <div class="photo-details">
+          <h1 class="photo-title">Photography</h1>
+          <p class="photo-desc">Increase your credibility by getting the most stunning, high-quality photos that improve
+            your business image.</p>
+        </div>
+      </div>
+    </section>
+    <!--testimonials-->
+    <section>
+      <div class="testimonial">
+        <h1 class="title">CLIENT TESTIMONIALS</h1>
+        <div class="testimonial-wrapper">
+          <div class="info">
+            <img class='profile-pic' src="./images/image-emily.jpg" alt="">
+            <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were
+              always hit.</p>
+            <h2 class="name">Emily R.</h2>
+            <span class="designation">Marketing Director</span>
+          </div>
+          <div class="info">
+            <img class='profile-pic' src="./images/image-thomas.jpg" alt="">
+            <p>Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and
+              enjoyable experience.</p>
+            <h2 class="name">Thomas S.</h2>
+            <span class="designation">Cheif Operating Officer</span>
+          </div>
+          <div class="info">
+            <img class='profile-pic' src="./images/image-jennie.jpg" alt="">
+            <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+            </p>
+            <h2 class="name">Jennie F.</h2>
+            <span class="designation">Business Owner</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--image-grid-->
+    <div class="image-grid">
+      <img id='bottles' src="./images/desktop/image-gallery-milkbottles.jpg" alt="">
+      <img id='orange' src="./images/desktop/image-gallery-orange.jpg" alt="">
+      <img id='cone' src="./images/desktop/image-gallery-cone.jpg" alt="">
+      <img id='sugarcubes' src="./images/desktop/image-gallery-sugarcubes.jpg" alt="">
+    </div>
+  </main>
+  <!--footer-->
+  <footer class="footer">
+    <h1 class="footer-logo">sunnyside</h1>
+    <nav class="footer-nav">
+      <ul class="footer-nav-items">
+        <li class="footer-nav-item">
+          <a href="#" class='footer-nav-link'>About</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="#" class='footer-nav-link'>Services</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="#" class='footer-nav-link'>Projects</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="social-media-links">
+      <a href="#" class="social-media-link">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="#" class="social-media-link">
+        <i class="fab fa-twitter-square"></i>
+      </a>
+      <a href="#" class="social-media-link">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#">
+        <i class="fab fa-pinterest"></i>
+      </a>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+
+</html>
